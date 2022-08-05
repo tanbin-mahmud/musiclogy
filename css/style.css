@@ -1,0 +1,329 @@
+ /*common start*/
+ 
+ body{
+ font-family: 'Oswald', sans-serif;
+ font-size: 16px;
+ font-weight:400;
+ color:#303030;
+
+}
+.c_padding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+ /*common end*/
+
+ /*header start*/
+ header{
+   padding: 20px 0;
+   background-color:#303030;
+    
+ }
+  .c_nav{}
+  .logo{
+   font-size: 25px;
+   font-weight:700;
+   color: #fff;
+   text-transform:uppercase;
+  }
+  .menu{
+  }
+
+.menu ul li a{
+    padding:0 20px !important;
+    font-size:15px;
+    font-weight:700;
+    color:#ffff !important;
+    text-transform: uppercase;
+   }
+  .menu ul li:last-child a{
+    padding-right: 10px!important;
+  }
+  .menu ul li a:hover{
+    color:lime !important;
+  }
+ /*header end*/
+  
+
+
+ /*banner start*/
+ .banner{
+   padding: 200px 9px 20px;
+   background-image: url(../images/banner.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 500px;
+ }
+ .b_text h1{
+    font-size: 60px !important;
+    font-weight: 500;
+    color: #fff;
+    text-transform: initial;
+    
+ }
+.b_text p {
+   font-size: 17px !important;
+   font-weight: 400;
+   color:lavenderblush;
+  
+   }
+.b_text button{
+    margin-top:12px ;
+    padding:3px 30px 9px !important;
+    background-color:#e8631c;
+    border:none;
+    /*letter-spacing: 5px;*/
+    border-radius: 2px;
+    line-height: 20px;
+   }
+  .b_text button a{
+      font-size: 16px !important;
+      font-weight:400;
+      text-decoration: none;
+      color:#fff;
+      transition: .3s;
+      letter-spacing: 2px;
+    }
+.b_text button:hover{
+      background-color:#303030;
+    }
+  
+ /*banner end*/
+
+ /*feature start*/
+ .card{
+  margin-top: 60px;
+ }
+ .feature{
+    
+    background-color: #e8631c;
+    }
+
+ .f_text{
+   
+   font-weight: 500;
+    
+   
+ }
+ .f_text h1{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+
+ }
+      
+ .f_text p{
+   font-family: 'Montserrat', sans-serif;
+   margin-top: 30px;
+   margin-bottom: 30px !important;
+  font-size:22px;
+  color: #fff;
+  text-align: center;
+   
+ }
+  
+
+.card{
+   margin-bottom: 60px;
+   border-color: unset;
+   border-radius: unset;
+   border: none;
+   box-shadow: box-shadow: 0px 20px 40px rgb(0 0 0 / 10%); ;
+   transition: .5s;
+
+}
+.card:hover{
+  background-color:skyblue;
+   
+}
+.c_img img{
+
+}
+ 
+  
+ .card_text{
+   background-color:#303030;
+ }
+
+.card_text h2{
+   margin-top: 2px;
+   margin-bottom: 2px !important;
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+ }
+  
+.card_text p{
+   margin-bottom: 20px !important;
+   font-size: 16px;
+   color:lavender;
+   text-align: center;
+   letter-spacing: 1px;
+ }
+/*feature end*/
+/*peicing start*/
+.pricing{
+  background-color:#303030 ;
+ }
+.ps_text{
+
+ }
+.ps_text h2{
+  margin-top: 35px;
+  margin-bottom: 30px;
+  font-weight:700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fff;
+    
+ }
+.ps_text p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight:400;
+    color: #fff;
+    text-align: center;
+
+}
+ 
+
+.card{
+  background-color:#e8631c;
+  
+ }
+.card img{
+  margin-top: -50px;
+  width: 100%;
+   
+ }
+ .card_2{
+  
+ }
+.card_ps{}
+.card_ps h2{
+  margin-top:-80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+.card_ps p{
+    margin-top: 7px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+.button{
+  padding: 2px 85px 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color:#303030;
+  border: none;
+  border-radius: 2px;
+  transition: .3s;
+}
+.button:hover{
+  background-color:#391807;
+}
+.button span{
+  color: #ffff;
+}
+ 
+ /*pricing end*/
+/*gallery start*/
+ .image-fluid{
+  max-width: 100%;
+  height: auto;
+ }
+
+  .gallery{
+
+  background-color: #e8631c;
+ }
+ .g_text{
+   margin-top: 280px;
+ }
+ .g_text h2{
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+ }
+ .g_text p{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size:28px;
+  font-weight: 400;
+  color: #fff;
+   
+}
+.g_text button{
+  padding: 3px 70px 10px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 2px;
+  background-color:#391807 ;
+  transition: .3s;
+}
+.g_text button:hover{
+  background-color: #fff;
+}
+.g_text button a{
+  margin-top: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+}
+.c_btn{
+
+}
+/*gallery end*/
+
+/*statistics start*/
+.statistics{
+  background-color:#303030;
+}
+.st_text{}
+.st_text h2{
+margin-top: 80px;
+font-size: 40px;
+font-weight: 700;
+color: #fff;
+text-transform: uppercase;
+}
+.st_text P{
+   font-family: 'Montserrat', sans-serif;
+   margin-top: 15px;
+   font-size:22px;
+   font-weight: 400;
+   color: #fff;
+}
+
+.c_text{
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+.c_text h2{
+ font-family: 'Oswald', sans-serif;
+ font-size:30px;
+ font-weight:700;
+ color: #fff;
+ letter-spacing: 1px;
+
+}
+.c_text p{
+   font-family: 'Montserrat', sans-serif;
+   font-size:16px;
+   font-weight: 400;
+   color: #fff;
+}
+/*statistics end*/
